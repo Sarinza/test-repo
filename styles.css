@@ -4,6 +4,7 @@
 
 h1 {
     color: red;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
@@ -11,9 +12,12 @@ p {
 }
 
 #name {
-    color: blue;
+    color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .resume {
     color: green;
+    font-family: 'Grey Qo', cursive;
+    font-size: 40px;
 }
