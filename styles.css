@@ -1,10 +1,11 @@
-* {
+body {
     background-color: black;
 }
 
 h1 {
     color: red;
     font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid white;
 }
 
 p {
@@ -20,4 +21,26 @@ p {
     color: green;
     font-family: 'Grey Qo', cursive;
     font-size: 40px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+img {
+    width: 150px;
+    height: 130px;
+}
+
+main {
+    border: 1px solid white;
+    padding: 10px;
+}
+section {
+    border: 1px solid white;
+    padding: 15px;
+    margin: 10px;
+}
+
+span {
+    border: 1px dashed purple;
+    padding: 5px;
 }
