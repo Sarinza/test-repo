@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouts</title>
+   <!--<link rel="stylesheet" href="styles.css" />--> 
+    <style>
+        body {
+            background-color: #fff;
+        }
+        header, article, footer {
+             background: grey;
+             margin-bottom: 10px;
+            padding: 10px;
+        }
+        nav ul li {
+            display: inline;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        ul {
+            padding: 10px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><strong>A Header is block level</strong></h1>
+        <nav>
+            <ul>
+               <li>page1</li>
+               <li>page2</li>
+               <li>page3</li>
+               <li>page4</li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veritatis corrupti animi dolores minus quaerat quod fugiat! Rerum quo totam recusandae est aut, impedit laborum similique laudantium nobis, doloremque quidem voluptatem quaerat quas. Eveniet, provident quos aspernatur deleniti magnam ipsum neque ea qui dolor corrupti distinctio autem adipisci quod ut.
+    </article>
+    <article>
+        <h3><strong>Inline Elements</strong></h3>
+    </article>
+    <article>
+        <p>Heer are some ilnline elements:</p>
+        <ul>
+            <li>This is span</li>
+            <li>This is emphasisi</li>
+            <li><strong>This is <strong>strong</strong></li>
+            <li><a href="#">This is an anchor tag </a></li>
+        </ul>
+    </article>
+    <article>
+        <p>And here is an image:</p>
+        <img src="profile_image.jpg" alt="which is also an inline element">
+    </article>
+    <footer>
+        css-snippets.com
+    </footer>
+</body>
+</html>
