@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Css Phase 1</title>
+    <style>
+        :root {
+            background-color: grey;
+        }
+
+        a:link {
+            color: black;
+            text-decoration: overline;
+            padding: 0px;
+            border: 10px ridge red;
+            margin: 2 auto;
+            /* display: block; */
+            font-size: 40px;
+            /* text-align: center; */
+        }
+
+        a:visited {
+            color: greenyellow;
+        }
+
+        a:hover {
+            color: cornflowerblue;
+            text-decoration: none;
+            background-color: red;
+        }
+
+        a:active {
+            background-color: darkblue;
+        }
+
+        ul li::first-letter {
+            color: blue;
+        }
+
+        ul li:last-child {
+            color: blue;
+        }
+
+        ul li:nth-child(1) {
+            background-color: brown;
+        }
+
+        input:focus {
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="133">unvisited link</a>
+    <a href="khvkhbk">visited link</a>
+    <a href="#">active link</a>
+    <a href="https://google.com">hover link</a>
+    <ul>
+        <li>ABBBBBB</li>
+        <li>ABBBBB</li>
+        <li>ABBBBBB</li>
+    </ul>
+    <label for="emailid">Email-Id:</label>
+    <input type="email" name="emailid" placeholder="Enter your email-id" />
+</body>
+
+</html>

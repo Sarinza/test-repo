@@ -5,39 +5,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>CSS Box model</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        main {
+            border: 1px solid white;
+        }
+
+        header {
+            padding: 10px;
+            border-bottom: 2px solid white;
+        }
+
+        ul li:first-child {
+            background-color: red;
+            font-size: 20px;
+        }
+
+        ul {
+            border: 1px solid white;
+            color: white;
+        }
+
+        ul li:last-child {
+            background-color: blue;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 10px;
+            border: 2px solid white;
+            margin: 10px;
+        }
+
+        img {
+            width: 100px;
+
+        }
+
+        #name {
+            border:  3px dashed purple;
+            color: lightskyblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p {
+            color: white;
+        }
+        .resume {
+            border: 1px solid red;
+            color: green;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+            border: 2px solid white;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <main>
         <header>
-            <h1>Profile</h1>
+            <span style="color: grey">P</span>
+            <span style="color: grey">r</span>
+            <span style="color: white">o</span>
+            <span style="color: grey">f</span>
+            <span style="color: grey">i</span>
+            <span style="color: grey">l</span>
+            <span style="color: white">e</span>
         </header>
         <section id="list">
             <ul>
-                <li>Projects</li>
+                <li style="color: orange;">Projects</li>
                 <li>Contact</li>
-                <li>Help</li>
+                <li style="color: orange;">Help</li>
             </ul>
         </section>
         <section>
             <img src="images\profile_image.jpg" />
             <p>
-                Hello, my name is <span id="name">Sam.</span>
+                Hello, my name is  <span id="name">Sam.</span>
             </p>
             <p>
                 I'm currently studying at Harvard.
             </p>
         </section>
-        <section>
+        <footer>
             <p class="resume">
                 I have been working in IT for two and a half years.
             </p>
-        </section>
+        </footer>
 
     </main>
 </body>

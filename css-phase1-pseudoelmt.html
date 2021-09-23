@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS pseudo elements</title>
+    <style>
+        span::before {
+            content: "Before...";
+        }
+        span::after {
+            content: "....after";
+        }
+        span:first-of-type {
+            color: blue;
+        }
+        span:last-of-type {
+            color: orange;
+        }
+        /* only of type used only for only child with parent */
+        span:only-of-type {
+            color: darkviolet;
+        }
+    </style>
+</head>
+<body>
+    <div><span>Hello World</span><span>Hello World</span></div>
+    
+    <span>Hello World2</span>
+    <span>Hello World3</span>
+</body>
+</html>
