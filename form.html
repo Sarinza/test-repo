@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            border: 1px solid black;
+        }
+
+        div {
+            padding: 10px;
+        }
+        form {
+            box-sizing: border-box;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label>Title </label>
+            <input type="radio" id="male" />
+            <label for="male">Mr</label>
+            <input type="radio" id="female" />
+            <label for="female">Ms</label>
+            <input type="radio" id="female" />
+            <label for="female">Miss</label>
+        </div>
+        <div>
+            <label>First Name </label>
+            <input type="text" value="first_name" />
+        </div>
+        <div>
+            <label>Last Name </label>
+            <input type="text" value="last_name" />
+        </div>
+        <div>
+            <label>Email </label>
+            <input type="email" value="email" />
+        </div>
+        <div>
+            <label>Phone Number </label>
+            <input type="number" placeholder="Phone" />
+        </div>
+        <div>
+            <label>Zip Code </label>
+            <input type="number" placeholder="zipcode" />
+        </div>
+        <div>
+            <label>Password </label>
+            <input type="password" placeholder="password" />
+        </div>
+        <div>
+            <label for="optionsmenu">Country </label>
+            <select name="options" id="optionsmenu">
+                <option value="Option1">Canada</option>
+                <option value="Option2">Canada</option>
+                <option value="Option3">Canada</option>
+                <option value="Option4">Canada</option>
+            </select>
+        </div>
+        <div>
+            <label for="someText">Anything i need to know? </label>
+            <textarea name="someText" cols="30" rows="3">Write here....</textarea>
+        </div>
+        <div>
+            <input type="checkbox"/>
+            <label for="">I agree to the <a href="#">terms and conditions</a></label>
+        </div>
+        <div>
+            <input type="submit" style="background-color: blue; color: white;">
+        </div>
+    </form>
+</body>
+
+</html>
