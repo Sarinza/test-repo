@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS practice</title>
+    <style>
+        body {
+            background-color: khaki;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        ul li:nth-child(odd), ul li:nth-child(even) {
+            border: 3px purple dashed;
+            padding: 10px;
+            margin: 10px;
+            font-size: 30px;
+        }
+        ul li:nth-child(even) {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1><strong>Quidditch Positions</strong></h1>
+        <ul class="roles">
+            <li>Keeper</li>
+            <li>Seeker</li>
+            <li>Beater</li>
+            <li>Chaser</li>
+        </ul>
+    </div>
+</body>
+</html>

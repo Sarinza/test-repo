@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoX Model</title>
+    <style>
+        * {
+            padding: 15px;
+            margin: 15px;
+        }
+        .box1 {
+            background-color: red;
+            border: 3px dashed;
+            text-align: center;
+        }
+        .box2 {
+            background-color: orange;
+            border: 3px solid;  
+            text-align: center;   
+        }
+        .box3 {
+            background-color: lightgreen;
+            border: 3px dashed;
+            text-align: center;
+        }
+        .box4 {
+            background-color: lightskyblue;
+            border: 3px solid;
+            text-align: center;
+        }
+    </style>
+</head>
+<!-- Need to finish this sometime to align texts on left and right -->
+<body>
+    <div class="box1">
+        <p>50px</p>
+        <span class="span-left">30px</span>
+        <div class="box2">
+            <p>30px</p>
+            <span class="spanspan-left">30px</span>
+            <div class="box3">
+                <p>50px</p>
+                <div class="box4">
+                    <p>height=60px</p>
+                </div>
+                <p>50px</p>
+            </div>
+            <span class="span-right">30px</span>
+            <p>30px</p>
+        </div>
+        <span class="span-right">30px</span>
+        <p>50px</p>
+    </div>
+</body>
+
+</html>

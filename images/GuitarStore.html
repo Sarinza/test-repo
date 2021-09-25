@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Store</title>
+    <style>
+        * {
+            padding: 5px;
+            margin: 5px;
+        }
+        img {
+            width: 80px;
+        }
+        .class1 {
+            background-color: lightcoral;
+        }
+        .class2 {
+            border: 2px solid;
+            padding: 20px;
+        }
+        ul {
+            list-style:  none;
+        }
+        ul > li {
+            color: orange;
+        }
+         ul li::before {
+            content: "\2022";
+            display: inline-block;
+             color: black;
+             width: 10px;
+         }
+         footer {
+             text-align: center;
+         }
+         .class3 {
+             border-bottom: black 1px solid;
+         }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="https://media.istockphoto.com/photos/acoustic-guitar-picture-id173240169?k=20&m=173240169&s=612x612&w=0&h=AxOZUmvZudWG4PJ1TeGiWlFug-37FrtD2vbTZP2yvDk=" alt="">
+    </div>
+    <div class="class1">
+        <h1><strong>My Guitar Store</strong></h1>
+        <p>Little sounds that make a difference</p>
+    </div>
+    <div>
+        <h1><strong>Welcome to my site. Please come in and stay awhile.</strong></h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quos voluptate sed, minima consequuntur
+            perferendis fugit voluptatibus dignissimos omnis quae maxime eos, reiciendis magni mollitia! Quo maiores
+            facere fugiat ducimus!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sit vel harum dignissimos, non, nemo dolor at
+            voluptate laudantium vitae totam. Suscipit deserunt saepe ex? Laudantium ducimus cumque ut tempore!</p>
+    </div>
+    <div>
+        <h2><strong>Product categories</strong></h2>
+        <ul class="class2">
+            <li>Acoustic</li>
+            <li>Electric</li>
+            <li>Classic</li>
+            <li>Bass</li>
+        </ul>
+    </div>
+    <div class="class3">
+        <h3><strong>My guarantee</strong></h3>
+        <p>If you are not completely satisfied with everything you buy form my site, you can return it for a full
+            refund. <strong>No questions asked!</strong></p>
+    </div>
+    <footer>
+        <p> &#169 2021 John Doe</p>
+    </footer>
+</body>
+
+</html>
