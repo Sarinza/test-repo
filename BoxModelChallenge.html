@@ -14,12 +14,13 @@
         .box1 {
             background-color: red;
             border: 3px dashed;
-            text-align: center;
+            position: relative;
         }
         .box2 {
             background-color: orange;
             border: 3px solid;  
-            text-align: center;   
+            position: relative; 
+            padding: 20px 30px 20px 30px;  
         }
         .box3 {
             background-color: lightgreen;
@@ -31,16 +32,36 @@
             border: 3px solid;
             text-align: center;
         }
+        #p1, #p3 {
+            position: absolute;
+            left: 500px;
+            top: -20px;
+        }
+        #p2, #p4 {
+            position: absolute;
+            left: 500px;
+            bottom: -30px;
+        }
+        .span1, .span3 {
+            position: absolute;
+            left: -30px;
+            top: 300px;
+        }
+        .span2, .span4 {
+            position: absolute;
+            right:-30px;
+            top: 300px;
+        }
     </style>
 </head>
 <!-- Need to finish this sometime to align texts on left and right -->
 <body>
     <div class="box1">
-        <p>50px</p>
-        <span class="span-left">30px</span>
+        <p id="p1">50px</p>
+        <span class="span1">30px</span>
         <div class="box2">
-            <p>30px</p>
-            <span class="spanspan-left">30px</span>
+            <p id="p3">30px</p>
+            <span class="span3">30px</span>
             <div class="box3">
                 <p>50px</p>
                 <div class="box4">
@@ -48,11 +69,11 @@
                 </div>
                 <p>50px</p>
             </div>
-            <span class="span-right">30px</span>
-            <p>30px</p>
+            <span class="span4">30px</span>
+            <p id="p4">30px</p>
         </div>
-        <span class="span-right">30px</span>
-        <p>50px</p>
+        <span class="span2">30px</span>
+        <p id="p2">50px</p>
     </div>
 </body>
 
