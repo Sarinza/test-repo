@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labyrinth</title>
+    <style>
+        .container {
+            display: flex;
+            height: 200px;
+            padding: 20px;
+            margin: 10px;
+        }
+        span {
+            border: 3px solid;
+            width: 30px;
+            background-color: blue;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span></span>
+        <span style="flex-grow: 2;"></span>
+        <span></span>
+    </div>
+    <div class="container">
+        <span style="flex-grow: 5;"></span>
+        <span style="flex-shrink: 1;"></span>
+        <span style="flex-grow: 2;"></span>
+    </div>
+    <div class="container">
+        <span></span>
+        <span style="flex-grow: 2;"></span>
+        <span style="flex-grow: 30;"></span>
+    </div>
+    <div class="container">
+        <span style="flex-grow: 5;"></span>
+        <span></span>
+        <span style="flex-grow: 5;"></span>
+        <span></span>
+        <span style="flex-grow: 5;"></span>
+    </div>
+</body>
+</html>
