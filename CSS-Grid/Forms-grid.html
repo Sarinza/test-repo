@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .container {
+            background-color: lightskyblue;
+        }
+
+        .name,
+        .email,
+        .comments, .submit {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            padding: 15px;
+        }
+        div > section {
+            border: 1px solid blue;
+            background-color: white;
+            padding: 5px;
+            margin-left: 10px;
+        }
+        .submit {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="name">
+            <span>Name</span>
+            <section></section>
+        </div>
+        <div class="email">
+            <span>Email</span>
+            <section></section>
+        </div>
+        <div class="comments">
+            <span>Comments</span>
+            <section></section>
+        </div>
+        <div class="submit">
+            <span></span>
+            <section>Submit</section>
+        </div>
+    </div>
+</body>
+
+</html>
