@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        div {
+            background-color: lightpink;
+            padding: 20px;
+        }
+        table {
+           border-radius: 15px;
+           background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border: gray;
+            min-width: 900px;
+            min-height: 500px;
+        }
+        tbody>tr:nth-child(2n) {
+            background-color: gray;
+        }
+        thead {
+            background-color: purple;
+            color: white;
+        }
+        tr:hover {
+            background-color: teal;
+        }
+        tbody>tr:nth-child(3):disabled {
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th><strong>First Name</strong></th>
+                    <th><strong>First Name</strong></th>
+                    <th><strong>First Name</strong></th>
+                    <th><strong>First Name</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>CFO</td>
+                    <td>@twitter</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>CFO</td>
+                    <td>@twitter</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>CFO</td>
+                    <td>@twitter</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>CFO</td>
+                    <td>@twitter</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>CFO</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
