@@ -6,7 +6,7 @@ a {
     text-decoration: none;
 }
   html {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: "Open Sans", sans-serif;
   }
  
@@ -17,8 +17,12 @@ a {
 
   .main {
       background-color: antiquewhite;
+      margin-bottom: 20px;
   }
-
+div {
+    /* font-family: 'Gemunu Libre', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
  
   /* Social media icons */
   .fa {
@@ -42,7 +46,6 @@ a {
 .fa-linkedin {   background: #007bb5; color: white}
   
 .logo-header {
-      background-color: antiquewhite;
       display: flex;
       padding: 0 10px;
       justify-content: center;
@@ -59,6 +62,7 @@ a {
     padding: 5px;
     position: sticky;
     top: 10px;
+    z-index: 5;
 }
 .navigation-menu {
     display: flex;
@@ -68,17 +72,101 @@ a {
     display: flex;
     background-color: white;
     max-height: 50px;
-    justify-content:space-between;
+    justify-content:space-around;
     padding: 15px;
     font-weight: bold;
+    font-size: 20px;
 }
 .billboard{
     text-align: center;
     font-size: 25px;
     overflow: hidden;
+    max-height: 1200px;
 }
-.transfers{
+
+ img.image-billboard-1 {
+    position:absolute;
+    right: 200px;
+}
+img.image-billboard-2 {
+    position:relative;
+    top: 150px;
+    right: 50px;
+}
+img.image-billboard-3 {
+    position:relative;
+    top: -350px;
+    right: 120px;
+}
+img:hover {
+    z-index: 4;
+}
+.transfers {
     display: flex;
-    background-color: lightskyblue;
-    padding: 15px 15px;
+    background-color: white;
+}
+.transfers-sm {
+    background-color: lightsteelblue;
+    padding: 15px 35px;
+    text-decoration: underline;
+    text-orientation: upright;
+    writing-mode:vertical-rl;
+    text-align: center;
+}
+
+.transfers > div > h3 {
+    background-color: lightsteelblue;
+    padding: 5px 5px;
+    margin: 0 10px;
+} 
+.latestContracts-table, .lastTrabsfers-table, .summerTransfers-table {
+    background-color: rgb(236, 233, 233);
+    padding: 0 10px;
+    margin: 0 10px;
+    border-collapse: collapse;
+}
+thead {
+    background-color: lightsteelblue;
+}
+
+.newsticker-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr 1fr;
+    background-color: white;
+    grid-gap: 10px 10px;
+}
+.newsfeed {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.newsticker-header {
+    background-color: lightsteelblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.headline-box > p {
+    color: rgb(31, 95, 31);
+}
+
+.youtube-video {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.footer {
+    display: grid;
+    grid-template-columns:  1fr;
+    justify-items:center;
+    padding: 10px 20px;
+    text-indent: 15px;
+    text-decoration: underline;
+}
+.footer-links {
+    display: flex;
+    padding: 10px 20px;
+    text-shadow: 1px 1px;
+    font-size: 20px;
 }
