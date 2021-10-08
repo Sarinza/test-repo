@@ -1,11 +1,455 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Page Title</title>
-    </head>
-    <body>
-        <h1>Welcome  to  Clubhouse</h1>
-        <image src="https://cdn.vox-cdn.com/thumbor/lSYi7VXBciRzoxqOsxh7G4nr-k0=/0x0:4096x2000/2120x1413/filters:focal(1721x673:2375x1327):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69259743/clubhouse_graphic.0.png"/>
-        <p>Clubhouse  is an invitation-only  networking  app.</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div class="logo-header">
+            <div class="logo">
+                <a href="https://www.transfermarkt.us/"><img src="https://tmsi.akamaized.net/head/transfermarkt_logo.svg" height="60" width="150" title="Transfermarkt" alt=""></a>
+            </div>
+            <div class="social_media_icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <div class="search-form">
+                <form class="form" action="">
+                    <input type="text" placeholder="Enter search item">
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+        <div class="navigation-bar">
+            <ul class="navigation-menu"> 
+                <li id="nav-news">NEWS</li>
+                <li id="nav-transfers">TRANSFERS</li>
+                <li id="nav-statistics">STATISTICS</li>
+                <li id="nav-pl">PREMIER LEAGUE</li>
+                <li id="nav-mv">MARKET VALUES</li>
+                <li id="nav-forums">FORUMS</li>
+            </ul>
+        </div>
+         <div class="quickselect-box"> <!--flex -->
+            <form class="selector" action=""> <!--flex -->
+                <label for="Cnames">Country</label>
+                <select name="countries" id="Cnames">
+                    <option value="">United States</option>
+                    <option value="">England</option>
+                    <option value="">Spain</option>
+                    <option value="">Italy</option>
+                </select>
+            </form> 
+            <form class="selector" action=""> <!--flex -->
+                <label for="Cmnames">Competitions</label>
+                <select name="competitions" id="Cmnames">
+                    <option value="">Champions League</option>
+                    <option value="">Europa League</option>
+                    <option value="">Nations League</option>
+                    <option value="">Conference League</option>
+                </select>
+            </form> 
+            <form class="selector" action=""> <!--flex -->
+                <label for="clubNames">Clubs</label>
+                <select name="clubs" id="clubNames">
+                    <option value="">Chelsea</option>
+                    <option value="">Juventus</option>
+                    <option value="">Bayern</option>
+                    <option value="">Dordoi</option>
+                </select>
+            </form> 
+        </div>
+        <div class="billboard">
+            <div class="image-billboard">
+                <a  id="top-players-link" href="https://howtheyplay.com/team-sports/10-FOOTBALL-PLAYERS-WITH-MOST-TROPHIES"><p><strong>The 10 Football Players With the Most Trophies</strong></p></a>
+
+                <img class="image-billboard-1" src="https://images.saymedia-content.com/.image/t_share/MTc0NDUyODE2NTQxMTMyMTM2/10-football-players-with-most-trophies.jpg" alt="">
+                <img class="image-billboard-2" src="https://www.sportsnet.ca/wp-content/uploads/2020/02/Lionel-Messi-Barcelona.jpg" alt="">
+                <img class="image-billboard-3"  src="https://guardian.ng/wp-content/uploads/2021/10/Cristiano-Ronaldo.jpg" alt="">   
+            </div>
+        </div>
+        <div class="transfers">
+            <div class="transfers-sm"> <!--flex -->
+                <h2><a href="#">TRANSFERS</a></h2>
+            </div>
+            <div>
+                <h3><a href="#">LATEST CONTRACT EXTENSIONS</a></h3>
+                <table class="latestContracts-table">
+                    <thead>
+                        <tr>
+                            <th colspan="2">player/position</th>
+                            <th>club</th>
+                            <th>extended until</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/61812-1447313783.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Yuri Berchiche</a></span>
+                                <span>Left-Back</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/621.png?lm=1565768743" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>Jun 30, 2024</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/164259-1615025337.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Akito Fukumoori</a></span>
+                                <span>Centre-Back</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/16032.png?lm=1614693081" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>Jan 31, 2025</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/232187-1523372816.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Rashid Mazaheri</a></span>
+                                <span>Goalkeeper</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/1076.png?lm=1407646189" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>Jun 30, 2023</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/334998-1617737695.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Robin Kehr</a></span>
+                                <span>Centre-Forward</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/65.png?lm=1503682935" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>Jun 30, 2023</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/238029-1621259463.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Liam Gordon</a></span>
+                                <span>Centre-Back</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/2578.png?lm=1610822014" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>May 31, 2024</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h3><a href="#">LAST TRANSFERS</a></h3>
+                <table class="lastTrabsfers-table">
+                    <thead>
+                        <tr>
+                            <th colspan="2">player/position</th>
+                            <th>club</th>
+                            <th>transfer fee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/118972-1589209304.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Seydouba Soumah</a></span>
+                                <span>Attacking modfield</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/15482.png?lm=1420983445" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>free transfer</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/127032-1479730792.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Serge Aurier</a></span>
+                                <span>Right-Back</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/1050.png?lm=1408655310" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span> -  </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/257806-1438608338.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">John Antwi</a></span>
+                                <span>Centre-Forward</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/9219.png?lm=1606942178" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>loan transfer</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/357397-1512658539.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">K.Sterling</a></span>
+                                <span>Centre-Forward</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/26497.png?lm=1601729230" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>   -   </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/770895-1598255270.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Ismael Boura</a></span>
+                                <span>Left-Back</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/738.png?lm=1408780648" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>loan transfer</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h3><a href="#">TOP SUMMER TRANSFERS</a></h3>
+                <table class="summerTransfers-table">
+                    <thead>
+                        <tr>
+                            <th colspan="2">player/position</th>
+                            <th>club</th>
+                            <th>transfer fee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/203460-1581417066.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Jack Grealish</a></span>
+                                <span>Left-Winger</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/281.png?lm=1467356331" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>$129.25m</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/96341-1596033546.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Romelu Lukaku</a></span>
+                                <span>Centre-Forward</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/631.png?lm=1628160548" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>$126.50m</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/401173-1632686361.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Jadon Sancho</a></span>
+                                <span>Left-Winger</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/985.png?lm=1457975903" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>$93.50m</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/28003-1631171950.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Lionel Messi</a></span>
+                                <span>Right-Winger</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/583.png?lm=1522312728" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>free trasnfer</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#"><img src="https://img.a.transfermarkt.technology/portrait/home2/164770-1598301905.jpg?lm=1" alt=""></a>
+                            </td>
+                            <td>
+                                <span><a href="#">Raphael Varane</a></span>
+                                <span>Center-Back</span>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/985.png?lm=1457975903" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <span>$44.00m</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="transfers-sm"> <!--flex -->
+                <h2><a href="#">TRANSFERS</a></h2>
+            </div>
+        </div>
+        <div class="newsfeed"> <!--flex -->
+            <h2><a href="#">NEWS FEED</a></h2>
+        </div>
+        <div class="newsticker-container"> <!--grid -->
+            <div class="newsticker-box">
+                <div class="newsticker-header">
+                    05.10.2021 - 13:49                </div>
+                <span class="emblem"> <!--flex -->
+                    <img src="https://tmssl.akamaized.net/images/wappen/homepageSmall/583.png?lm=1522312728" alt="">
+                </span>
+                <span class="image">
+                    <img src="https://img.a.transfermarkt.technology/portrait/medium/342229-1632686046.jpg?lm=1" alt="">
+                </span>
+                <div class="headline-box">
+                    <p>Conflict between PSG and Real</p>
+                    <p>
+                        Leonardo counters Pérez statement on Mbappé: "Lack of respect that ...                    </p>
+                </div>
+            </div>
+            <div class="newsticker-box">
+                <div class="newsticker-header">
+                    05.10.2021 - 07:00                </div>
+                <span class="emblem"> <!--flex -->
+                    <img src="https://tmssl.akamaized.net/images/logo/homepageSmall/gb1.png?lm=1521104656" alt="">
+                </span>
+                <span class="image">
+                    <img src="https://img.a.transfermarkt.technology/portrait/medium/203460-1581417066.jpg?lm=1" alt="">
+                </span>
+                <div class="headline-box">
+                    <p>Premier League update</p>
+                    <p>
+                        Market values England: Grealish surpasses Sancho - Werner at ...                    </p>
+                </div>
+            </div>
+            <div class="newsticker-box">
+                <div class="newsticker-header">
+                    04.10.2021 - 12:43                </div>
+                <span class="emblem"> <!--flex -->
+                    <img src="https://tmssl.akamaized.net/images/wappen/homepageSmall/1050.png?lm=1408655310" alt="">
+                </span>
+                <span class="image">
+                    <img src="https://img.a.transfermarkt.technology/portrait/medium/127032-1479730792.jpg?lm=1" alt="">
+                </span>
+                <div class="headline-box">
+                    <p>Reunited with Emery</p>
+                    <p>
+                        Most valuable free agent: Previously at Tottenham Serge Aurier ...                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="youtube-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8t0sJ4ALOh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9mv4-EK9o0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Q3GxnCr_1mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <footer class="footer">
+            <ul class="footer-links">
+                <li><a href="#">legal notice</a></li>
+                 | 
+                <li><a href="#">privacy</a></li>
+                |
+                <li><a href="#">general terms of use</a></li>
+                |
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <p>© 2005-2021 Transfermarkt. Content is available under these licenses.</p>
+        </footer>
+    </div>
+</body>
 </html>
